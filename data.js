@@ -1,8 +1,7 @@
+// To have each line animate individually, make each line a separate array 
+// element and enable the row animation effect in index.html
 export const bio = [
-    "Hello there, This is Vinay Somawat.",
-    "Experienced Frontend Software Engineer with a strong track record of successfully upgrading applications, optimizing performance, and delivering innovative solutions.",
-    "Eager to apply my technical expertise and in-depth product understanding to drive impactful contributions and exceed expectations in challenging projects.",
-    "Thanks for taking the time to learn a little about me!",
+    "Hi my name is Louisa"
 ];
 
 export const skills = [

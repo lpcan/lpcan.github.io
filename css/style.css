@@ -15,7 +15,7 @@
 }
 
 .dark-mode {
-	background-color: black;
+	background-color: #08252f;
 	color: white;
   }
 
@@ -42,6 +42,7 @@ body {
 	}
 }
 
+/* Styling for links */
 a {
 	color: #2c98f0;
 	-webkit-transition: 0.5s;
@@ -131,6 +132,8 @@ figure figcaption {
 	position: relative;
 }
 
+/* Styling for the sidebar */
+
 #colorlib-aside {
 	padding-top: 3em;
 	padding-bottom: 1px;
@@ -138,7 +141,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f9bf3f;
+	background-color: #0e4254;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;

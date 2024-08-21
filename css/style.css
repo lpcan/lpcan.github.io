@@ -171,15 +171,15 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 150px;
-	height: 150px;
+	width: 300px;
+	height: 300px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	/* border: 3px solid white; */
+	border: 3px solid white;
 }
 
 #colorlib-aside .author-img img{

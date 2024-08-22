@@ -196,7 +196,6 @@ figure figcaption {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	color: #bdbdbd;
-	margin-bottom: 1.5em;
 }
 #colorlib-aside .position {
 	display: block;
@@ -374,6 +373,11 @@ figure figcaption {
 		width: 100%;
 		padding: 0 1em;
 	}
+}
+
+#colorlib-main p {
+	margin-bottom:1.5em;
+	margin-left: 0.2em;
 }
 
 #colorlib-hero {
@@ -676,7 +680,7 @@ body.offcanvas .colorlib-nav-toggle {
 .about-desc h1 {
 	margin-bottom: 20px;
 	font-size: 38px;
-	font-weight: 600;
+	font-weight: 400;
 	font-family: "Montserrat", Georgia, serif;
 }
 

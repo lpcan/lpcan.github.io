@@ -1,7 +1,13 @@
 // To have each line animate individually, make each line a separate array 
 // element and enable the row animation effect in index.html
 export const bio = [
-    "Hi my name is Louisa"
+    "I study <b>intracluster light</b> (ICL), which is diffuse, low surface-brightness\
+     light we can observe extending throughout galaxy clusters, which forms an\
+     important fossil record of the interactions that have occurred within that\
+     cluster, and therefore can teach us a lot about <b>galaxy evolution</b>.",
+    "Currently, I am investigating the use of <b>machine learning</b> in this\
+     field, and have created a model designed to measure the ICL fraction in\
+     optical survey images."
 ];
 
 export const skills = [

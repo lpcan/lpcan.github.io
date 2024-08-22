@@ -195,7 +195,8 @@ figure figcaption {
 #colorlib-aside p {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
-	color: #bdbdbd
+	color: #bdbdbd;
+	margin-bottom: 1.5em;
 }
 #colorlib-aside .position {
 	display: block;

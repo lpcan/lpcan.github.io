@@ -76,7 +76,7 @@ export const projects = {
     webProjects: [
         {
             projectName: "Programming Diaries",
-            image: "images/programmingdiaries.png",
+            image: "images/telescope.png",
             summary:
                 "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
             preview: "https://programmingdiaries.herokuapp.com/",
@@ -84,7 +84,7 @@ export const projects = {
         },
         {
             projectName: "Find Your Bank",
-            image: "images/findyourbank.png",
+            image: "images/telescope.png",
             summary:
                 "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
             preview: "https://clever-fermi-0d5d76.netlify.app",
@@ -92,7 +92,7 @@ export const projects = {
         },
         {
             projectName: "Web Portfolio",
-            image: "images/portfolio.png",
+            image: "images/telescope.png",
             summary:
                 "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
             preview: "https://github.com/vinaysomawat/Travographer-Portal",
@@ -100,7 +100,7 @@ export const projects = {
         },
         {
             projectName: "Resume Builder",
-            image: "images/resume-builder.png",
+            image: "images/telescope.png",
             summary:
                 "Browser based editor to build and download Resumes in a customizable templates.",
             preview: "https://vinaysomawat.github.io/Resume-Builder",
@@ -110,7 +110,7 @@ export const projects = {
     softwareProjects: [
         {
             projectName: "Pizza Ordering ChatBot",
-            image: "images/pizzaorderchatbot.png",
+            image: "images/telescope.png",
             summary:
                 "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
             preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
@@ -118,7 +118,7 @@ export const projects = {
         },
         {
             projectName: "WhatsApp-Bot",
-            image: "images/whatsappbot.jpg",
+            image: "images/telescope.png",
             summary:
                 "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
             preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
@@ -126,7 +126,7 @@ export const projects = {
         },
         {
             projectName: "Bill Generator",
-            image: "images/billgenerator.png",
+            image: "images/telescope.png",
             summary:
                 "GUI to transfer data to excel sheets and generate bills on the local shops.",
             preview: "https://github.com/vinaysomawat/Bill-Generator",
@@ -136,38 +136,14 @@ export const projects = {
     androidProjects: [
         {
             projectName: "NITW-CSE",
-            image: "images/nitwcse.jpg",
+            image: "images/telescope.png",
             summary:
                 "The Application display details of Department courses, reference books, research, publication and faculty profile.",
             preview: "https://github.com/vinaysomawat/NITW-CSE",
             techStack: ["JAVA", "XML", "Android"],
         },
-        {
-            projectName: "CareerHigh-App",
-            image: "images/carrerhigh.png",
-            summary:
-                "The Application display the webpages of website careerhigh.in in android devices.",
-            preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-            techStack: ["JAVA", "XML", "Android"],
-        },
     ],
     freelanceProjects: [
-        {
-            projectName: "SnylloAir.com",
-            image: "images/snylloair.png",
-            summary:
-                "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-            preview: "https://www.snylloair.com/",
-            techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-        },
-        {
-            projectName: "Delivery+",
-            image: "images/AM-Logo-.png",
-            summary: "Android Application to display website in android devices.",
-            preview:
-                "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-            techStack: ["Android", "JAVA", "Play Store"],
-        },
     ],
 };
 

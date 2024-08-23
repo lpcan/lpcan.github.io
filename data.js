@@ -12,14 +12,14 @@ export const bio = [
 
 export const experience = [
     {
-        title: "Shiprocket (Bigfoot Solution Private Limited)",
-        duration: "September 2022 - Present",
-        subtitle: "Software Engineer",
+        title: "ML4ASTRO2 conference",
+        duration: "July 8, 2024 - July 12, 2024",
+        subtitle: "Attended the second Machine Learning for Astrophysics conference in Catania, Italy.",
         details: [
-            "Working in support and escalation team."
+            
         ],
-        tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-        icon: "truck ",
+        tags: [],
+        icon: "airplane",
     },
     {
         title: "Biofourmis India Private Limited",

@@ -18,7 +18,7 @@ export const experience = [
         details: [
         ],
         tags: [],
-        icon: "group",
+        icon: "people-group",
     },{
         title: "ML4ASTRO2 conference",
         duration: "July 8, 2024 - July 12, 2024",
@@ -26,7 +26,7 @@ export const experience = [
         details: [
         ],
         tags: [],
-        icon: "plane-up",
+        icon: "plane",
     },
     {
         title: "EAS annual meeting",
@@ -35,7 +35,7 @@ export const experience = [
         details: [
         ],
         tags: [],
-        icon: "plane-up",
+        icon: "plane",
     },
     {
         title: "ASA ASM",

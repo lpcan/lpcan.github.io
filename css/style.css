@@ -242,13 +242,13 @@ figure figcaption {
 	padding: 0;
 	list-style: none;
 	font-size: 13px;
-	font-weight: 500;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 	color: #fff
 }
 #colorlib-aside #colorlib-main-menu ul li a {
-	color: rgba(0, 0, 0, 0.7);
+	color: white;
 	text-decoration: none;
 	position: relative;
 	padding: 10px 0;
@@ -279,7 +279,7 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
 	visibility: visible;
@@ -291,7 +291,8 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 400;
+	color: white;
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
 	visibility: visible;

@@ -825,6 +825,11 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-bottom: 30px;
 }
 
+#timeline-box {
+	height:850px;
+	overflow:auto;
+}
+
 .timeline-centered:before,
 .timeline-centered:after {
 	content: " ";

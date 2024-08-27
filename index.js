@@ -349,7 +349,8 @@ import { URLs } from './user-data/urls.js';
       divTimelineEntryInner.append(divTimelineLabel);
   
       let article = document.createElement("article");
-      article.className = "timeline-entry animate-box";
+      // article.className = "timeline-entry animate-box";
+      article.className = "timeline-entry"
       article.append(divTimelineEntryInner);
   
       mainContainer.append(article);
@@ -363,7 +364,8 @@ import { URLs } from './user-data/urls.js';
     divTimelineEntryInner.append(divTimelineIcon);
   
     let article = document.createElement("article");
-    article.className = "timeline-entry begin animate-box";
+    // article.className = "timeline-entry begin animate-box";
+    article.className = "timeline-entry begin"
     article.append(divTimelineEntryInner);
   
     mainContainer.append(article);

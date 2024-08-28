@@ -997,9 +997,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .pub-entry {
 	height: 150px;
-	margin-top: 10px;
+	margin-top: -3px;
 	margin-left: 20px;
-	margin-bottom: 50px;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-color:#f2f3f7;

@@ -404,7 +404,13 @@ import {
       pPubAuthors.innerHTML = items[i].authors;
       divPubInfo.append(pPubAuthors); // add authors
       let iSubmission = document.createElement("i");
-      iSubmission.innerHTML = items[i].status.concat(", ", items[i].date);
+      if ((items[i].status.length > 0) && (items[i].date.length > 0)) {
+        iSubmission.innerHTML = items[i].status.concat(", ", items[i].date);
+      } else if (items[i].status.length > 0) {
+        iSubmission.innerHTML = items[i].status
+      } else {
+        iSubmission.innerHTML = items[i].date
+      }
       divPubInfo.append(iSubmission); // add submission information
       
       divPubLabel.append(divPubInfo); // place information inside label

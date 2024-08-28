@@ -64,6 +64,7 @@ export const publications = [
         status: "Submitted to a journal",
         date: "August 2024",
         link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        thumbnail: "images/work_in_progress.png"
     },
 ];
 

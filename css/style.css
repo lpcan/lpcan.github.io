@@ -60,7 +60,6 @@ a:focus {
 p {
 	/* margin-bottom: 1.5em; */
 	font-family: "Montserrat", sans-serif;
-	margin-left: 0.2em;
 }
 x {
 	margin-bottom: 1.5em;
@@ -376,11 +375,6 @@ figure figcaption {
 	}
 }
 
-#colorlib-main p {
-	margin-bottom:1.5em;
-	margin-left: 0.2em;
-}
-
 #colorlib-hero {
 	min-height: 500px;
 	background: #fff url(../images/loader.gif) no-repeat center center;
@@ -685,6 +679,11 @@ body.offcanvas .colorlib-nav-toggle {
 	font-size: 38px;
 	font-weight: 400;
 	font-family: "Montserrat", Georgia, serif;
+}
+
+.about-desc p {
+	margin-left: 0.2em;
+	margin-bottom:1.5em;
 }
 
 .hire {

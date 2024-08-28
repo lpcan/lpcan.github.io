@@ -1,9 +1,10 @@
 import {
     bio,
-    projects,
-    education,
     experience,
-    footer,
+    publications,
+    // projects,
+    // education,
+    // footer,
   } from "./data.js";
 
 import { URLs } from './user-data/urls.js';
@@ -370,6 +371,51 @@ import { URLs } from './user-data/urls.js';
   
     mainContainer.append(article);
   }
+
+  function populatePublications(items, id) {
+    let mainContainer = document.getElementById(id);
+
+    for (let i = 0; i < items.length; i++) {
+      let linkContainer = document.createElement("a");
+      linkContainer.setAttribute("href", items[i].link);
+      linkContainer.setAttribute("target", "_blank");
+      linkContainer.setAttribute("rel", "noopener noreferrer");
+
+      let divPubEntry = document.createElement("div");
+      divPubEntry.className = "pub-entry";
+
+      let divPubLabel = document.createElement("div");
+      divPubLabel.className = "pub-entry-label";
+
+      let divPubThumbnail = document.createElement("div");
+      divPubThumbnail.className = "pub-entry-thumbnail";
+      let img = document.createElement("img");
+      img.src = items[i].thumbnail;
+      img.alt = items[i].thumbnail;
+      divPubThumbnail.append(img); // place image inside thumbnail container
+      divPubLabel.append(divPubThumbnail); // place thumbnail inside label
+
+      let divPubInfo = document.createElement("div");
+      divPubInfo.className = "pub-entry-info";
+      let h2PubTitle = document.createElement("h2");
+      h2PubTitle.innerHTML = items[i].title;
+      divPubInfo.append(h2PubTitle) // add title
+      let pPubAuthors = document.createElement("p");
+      pPubAuthors.innerHTML = items[i].authors;
+      divPubInfo.append(pPubAuthors); // add authors
+      let iSubmission = document.createElement("i");
+      iSubmission.innerHTML = items[i].status.concat(", ", items[i].date);
+      divPubInfo.append(iSubmission); // add submission information
+      
+      divPubLabel.append(divPubInfo); // place information inside label
+
+      divPubEntry.append(divPubLabel); // place label inside entry
+
+      linkContainer.append(divPubEntry); // place pub entry inside link
+
+      mainContainer.append(linkContainer); // place link inside main container
+    }
+  }
   
   /**
    * Populate links in the specified footer section with provided data.
@@ -446,6 +492,8 @@ import { URLs } from './user-data/urls.js';
   populateBio(bio, "bio");
 
   populateExp_Edu(experience, "experience");
+
+  populatePublications(publications, "publications")
   
   // populateSkills(skills, "skills");
   

@@ -22,7 +22,7 @@ export const experience = [
     },{
         title: "ML4ASTRO2 conference",
         duration: "July 8, 2024 - July 12, 2024",
-        subtitle: "I presented a talk at the second <a href=\"https://indico.ict.inaf.it/event/2690/overview\">Machine Learning for Astrophysics conference</a> in Catania, Italy.",
+        subtitle: "I presented a talk at the second Machine Learning for Astrophysics conference in Catania, Italy.",
         details: [
         ],
         tags: [],
@@ -31,7 +31,7 @@ export const experience = [
     {
         title: "EAS annual meeting",
         duration: "July 1, 2024 - July 5, 2024",
-        subtitle: "I had a poster and presented a sparkler talk at the <a href=\"https://eas.unige.ch/EAS2024/\">European Astronomical Society Annual Meeting</a> in Padova, Italy.",
+        subtitle: "I had a poster and presented a sparkler talk at the European Astronomical Society Annual Meeting in Padova, Italy. Check out my poster <a href=\"https://k-poster.kuoni-congress.info/eas-2024/gallery#/poster/EC96679B-EDA9-4BD7-9899-B2E1663481DC\">here</a>!",
         details: [
         ],
         tags: [],
@@ -40,7 +40,7 @@ export const experience = [
     {
         title: "ASA ASM",
         duration: "June 24, 2024 - June 28, 2024",
-        subtitle: "I was awarded best student presentation at the <a href=\"https://www.icrar.org/conferences/asa2024/\">Astronomical Society of Australia's Annual Science Meeting</a>!",
+        subtitle: "I was awarded best student presentation at the Astronomical Society of Australia's Annual Science Meeting! The recording is <a href=\"https://youtu.be/inj516PfFTU?t=3294\">here</a>.",
         details: [
         ],
         tags: [],

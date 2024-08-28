@@ -66,14 +66,14 @@ export const publications = [
         link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         thumbnail: "images/work_in_progress.png"
     },
-    {
-        title: "Another example paper",
-        authors: "First author, second author, third author",
-        status: "Submitted to a journal",
-        date: "August 2024",
-        link: "https://www.google.com",
-        thumbnail: "images/telescope.png"
-    }
+    // {
+    //     title: "Another example paper",
+    //     authors: "First author, second author, third author",
+    //     status: "Submitted to a journal",
+    //     date: "August 2024",
+    //     link: "https://www.google.com",
+    //     thumbnail: "images/telescope.png"
+    // }
 ];
 
 

@@ -367,6 +367,7 @@ figure figcaption {
 	-o-transition: 0.5s;
 	transition: 0.5s;
 	padding-top: 4em;
+	padding-bottom:30em;
 }
 @media screen and (max-width: 768px) {
 	#colorlib-main {
@@ -824,11 +825,11 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered {
 	position: relative;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 #timeline-box {
-	height:850px;
+	height:810px;
 	overflow:auto;
 }
 

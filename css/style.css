@@ -1019,8 +1019,13 @@ body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 100px;
 	height: 100px;
-	border-style:solid;
+	/* border-style:solid; */
 	float: left;
+}
+
+.pub-entry .pub-entry-label .pub-entry-thumbnail img {
+	height: 100%; 
+    object-fit: contain;
 }
 
 .pub-entry .pub-entry-label .pub-entry-info {

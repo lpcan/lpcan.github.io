@@ -7,11 +7,11 @@ import {
     // footer,
   } from "./data.js";
 
-import { URLs } from './user-data/urls.js';
+// import { URLs } from './user-data/urls.js';
   
-  const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
-    projects;
-  const { medium, gitConnected } = URLs;
+  // const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
+  //   projects;
+  // const { medium, gitConnected } = URLs;
   
   /**
    * Fetches blogs from Medium profile.

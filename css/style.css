@@ -1003,9 +1003,14 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-bottom: 50px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-color:#e4e5e8;
+	border-color:#f2f3f7;
 	display: flex;
     align-items: center;
+	border-radius: 4px;
+}
+
+.pub-entry:hover {
+	background-color: #f2f3f7;
 }
 
 .pub-entry .pub-entry-label {

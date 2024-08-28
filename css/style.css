@@ -569,6 +569,7 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 0;
 }
 
+.colorlib-publications,
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-profile,
@@ -593,6 +594,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 @media screen and (max-width: 768px) {
+	.colorlib-publications,
 	.colorlib-experience,
 	.colorlib-skills,
 	.colorlib-profile,
@@ -988,6 +990,58 @@ body.offcanvas .colorlib-nav-toggle {
 	-ms-filter: alpha(opacity=40);
 	filter: alpha(opacity=40);
 	font-size: 16px;
+}
+
+.colorlib-publications a {
+	color: black;
+}
+
+.pub-entry {
+	height: 150px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color:#e4e5e8;
+	display: flex;
+    align-items: center;
+}
+
+.pub-entry .pub-entry-label {
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:15px;
+	font-family: "Montserrat";
+}
+
+.pub-entry .pub-entry-label .pub-entry-thumbnail {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-style:solid;
+	float: left;
+}
+
+.pub-entry .pub-entry-label .pub-entry-info {
+	float:left;
+	margin-left: 20px;
+	flex: 0 0 78%;
+    max-width: 78%;
+	line-height:1.4;
+	font-size: 13px;
+	height: 100px;
+}
+
+.pub-entry .pub-entry-label .pub-entry-info h2 {
+	margin-bottom: 1px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.pub-entry .pub-entry-label .pub-entry-info
+	i {
+	line-height: 2.5;
 }
 
 .services {

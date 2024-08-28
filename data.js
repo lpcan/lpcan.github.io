@@ -57,6 +57,16 @@ export const experience = [
     },
 ];
 
+export const publications = [
+    {
+        title: "Watch this space!",
+        authors: "First author, second author, third author",
+        status: "Submitted to a journal",
+        date: "August 2024",
+        link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    },
+];
+
 
 export const projects = {
     webProjects: [

@@ -320,7 +320,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   arrowBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-      carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
+      carousel.scrollLeft += btn.id === "left-arrow" ? -firstCardWidth : firstCardWidth;
     });
   });
 });

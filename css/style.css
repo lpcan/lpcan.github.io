@@ -564,6 +564,7 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 0;
 }
 
+.colorlib-code,
 .colorlib-publications,
 .colorlib-experience,
 .colorlib-skills,
@@ -589,6 +590,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 @media screen and (max-width: 768px) {
+	.colorlib-code,
 	.colorlib-publications,
 	.colorlib-experience,
 	.colorlib-skills,

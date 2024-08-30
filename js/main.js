@@ -313,7 +313,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const carousel = document.querySelector(".carousel");
-  const arrowBtns = document.querySelectorAll(".wrapper i");
+  const arrowBtns = document.querySelectorAll(".card-wrapper i");
 
   const firstCard = carousel.querySelector(".card");
   const firstCardWidth = firstCard.offsetWidth;

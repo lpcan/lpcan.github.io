@@ -313,15 +313,26 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const carousel = document.querySelector(".carousel");
-  const arrowBtns = document.querySelectorAll(".card-wrapper i");
+  const leftBtn = document.querySelector("#left-arrow");
+  const rightBtn = document.querySelector("#right-arrow")
 
   const firstCard = carousel.querySelector(".card");
   const firstCardWidth = firstCard.offsetWidth;
 
-  arrowBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      carousel.scrollLeft += btn.id === "left-arrow" ? -firstCardWidth : firstCardWidth;
-    });
-  });
+  leftBtn.addEventListener("click", () => {
+    carousel.scrollLeft -= firstCardWidth;
+    rightBtn.setAttribute("visibility", "visible");
+    if (carousel.scrollLeft === 0) {
+      leftBtn.setAttribute("visibility", "hidden");
+    }
+  })
+
+  rightBtn.addEventListener("click", () => {
+    carousel.scrollLeft += firstCardWidth;
+    leftBtn.setAttribute("visibility", "visible");
+    if (carousel.scrollLeft >= carousel.scrollWidth) {
+      rightBtn.setAttribute("visibility", "hidden");
+    }
+  })
 });
   

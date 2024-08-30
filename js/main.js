@@ -156,6 +156,12 @@
         return false;
       });
     };
+
+    // var carousel = function () {
+    //   $("#right").click(function (event) {
+    //     $(".carousel").scrollLeft += $(".card:first")
+    //   })
+    // }
   
     // Reflect scrolling in navigation
     var navActive = function (section) {
@@ -304,4 +310,18 @@
       enableDarkMode();
     }
   }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const carousel = document.querySelector(".carousel");
+  const arrowBtns = document.querySelectorAll(".wrapper i");
+
+  const firstCard = carousel.querySelector(".card");
+  const firstCardWidth = firstCard.offsetWidth;
+
+  arrowBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
+    });
+  });
+});
   

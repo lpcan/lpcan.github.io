@@ -313,25 +313,25 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   const carousel = document.querySelector(".carousel");
-  const leftBtn = document.querySelector("#left-arrow");
-  const rightBtn = document.querySelector("#right-arrow")
+  const leftBtn = document.getElementById("left-arrow");
+  const rightBtn = document.getElementById("right-arrow");
 
   const firstCard = carousel.querySelector(".card");
   const firstCardWidth = firstCard.offsetWidth;
 
   leftBtn.addEventListener("click", () => {
     carousel.scrollLeft -= firstCardWidth;
-    rightBtn.setAttribute("visibility", "visible");
+    rightBtn.style.visibility = "visible";
     if (carousel.scrollLeft === 0) {
-      leftBtn.setAttribute("visibility", "hidden");
+      leftBtn.style.visibility = "hidden";
     }
   })
 
   rightBtn.addEventListener("click", () => {
     carousel.scrollLeft += firstCardWidth;
-    leftBtn.setAttribute("visibility", "visible");
+    leftBtn.style.visibility = "visible";
     if (carousel.scrollLeft >= carousel.scrollWidth) {
-      rightBtn.setAttribute("visibility", "hidden");
+      rightBtn.style.visibility = "hidden";
     }
   })
 });

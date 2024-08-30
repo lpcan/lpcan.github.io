@@ -1087,10 +1087,6 @@ body.offcanvas .colorlib-nav-toggle {
 	right: -42px;
 } 
 
-#left-arrow {
-	visibility: hidden;
-}
-
 .card-wrapper .carousel {
 	display: grid;
 	grid-auto-flow: column;

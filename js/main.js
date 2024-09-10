@@ -320,16 +320,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstCardWidth = firstCard.offsetWidth;
 
   leftBtn.addEventListener("click", () => {
-    carousel.scrollLeft -= firstCardWidth;
+    carousel.scrollLeft -= (firstCardWidth+10);
     console.log(carousel.scrollLeft)
     rightBtn.style.visibility = "visible";
-    if (carousel.scrollLeft === 40) {
+    if (carousel.scrollLeft <= 304) {
       leftBtn.style.visibility = "hidden";
     }
   })
 
   rightBtn.addEventListener("click", () => {
-    carousel.scrollLeft += firstCardWidth;
+    carousel.scrollLeft += (firstCardWidth+10);
     console.log(carousel.scrollLeft)
     console.log(carousel.scrollWidth)
     leftBtn.style.visibility = "visible";

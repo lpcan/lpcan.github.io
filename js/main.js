@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function() {
     carousel.scrollLeft -= firstCardWidth;
     console.log(carousel.scrollLeft)
     rightBtn.style.visibility = "visible";
-    if (carousel.scrollLeft === 0) {
+    if (carousel.scrollLeft === 40) {
       leftBtn.style.visibility = "hidden";
     }
   })
@@ -331,6 +331,7 @@ document.addEventListener("DOMContentLoaded", function() {
   rightBtn.addEventListener("click", () => {
     carousel.scrollLeft += firstCardWidth;
     console.log(carousel.scrollLeft)
+    console.log(carousel.scrollWidth)
     leftBtn.style.visibility = "visible";
     if (carousel.scrollLeft >= carousel.scrollWidth) {
       rightBtn.style.visibility = "hidden";

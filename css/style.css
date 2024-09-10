@@ -998,6 +998,10 @@ body.offcanvas .colorlib-nav-toggle {
 	color: black;
 }
 
+.colorlib-publications a:hover {
+	color: #2c98f0;
+}
+
 .pub-entry {
 	height: 150px;
 	margin-top: -3px;

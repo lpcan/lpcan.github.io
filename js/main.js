@@ -319,21 +319,28 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstCard = carousel.querySelector(".card");
   const firstCardWidth = firstCard.offsetWidth;
 
+  const numCards = document.querySelectorAll(".card").length;
+  var currCard = 0;
+  console.log(numCards);
+
   leftBtn.addEventListener("click", () => {
-    carousel.scrollLeft -= (firstCardWidth+10);
+    currCard -= currCard > 0 ? 1 : 0;
+    carousel.scrollLeft -= firstCardWidth;
     console.log(carousel.scrollLeft)
+    console.log(currCard)
     rightBtn.style.visibility = "visible";
-    if (carousel.scrollLeft <= 304) {
+    if (currCard == 0) {
       leftBtn.style.visibility = "hidden";
     }
   })
 
   rightBtn.addEventListener("click", () => {
-    carousel.scrollLeft += (firstCardWidth+10);
+    currCard += currCard > 0 ? 1 : 0;
+    carousel.scrollLeft += firstCardWidth;
     console.log(carousel.scrollLeft)
-    console.log(carousel.scrollWidth)
+    console.log(currCard)
     leftBtn.style.visibility = "visible";
-    if (carousel.scrollLeft >= carousel.scrollWidth) {
+    if (currCard == (numCards - 1)) {
       rightBtn.style.visibility = "hidden";
     }
   })

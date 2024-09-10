@@ -335,12 +335,12 @@ document.addEventListener("DOMContentLoaded", function() {
   })
 
   rightBtn.addEventListener("click", () => {
-    currCard += currCard < (numCards - 1) ? 1 : 0;
+    currCard += currCard < (numCards - 2) ? 1 : 0;
     carousel.scrollLeft += firstCardWidth;
     console.log(carousel.scrollLeft)
     console.log(currCard)
     leftBtn.style.visibility = "visible";
-    if (currCard == (numCards - 1)) {
+    if (currCard == (numCards - 2)) {
       rightBtn.style.visibility = "hidden";
     }
   })

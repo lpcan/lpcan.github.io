@@ -2,9 +2,7 @@ import {
     bio,
     experience,
     publications,
-    // projects,
-    // education,
-    // footer,
+    repos,
   } from "./data.js";
 
 // import { URLs } from './user-data/urls.js';
@@ -422,6 +420,41 @@ import {
       mainContainer.append(linkContainer); // place link inside main container
     }
   }
+
+  function populateCode(items, id) {
+    let mainContainer = document.getElementById(id);
+    
+    for (let i = 0; i < items.length; i++) {
+      let linkContainer = document.createElement("a");
+      linkContainer.setAttribute("href", items[i].link);
+      linkContainer.setAttribute("target", "_blank");
+      linkContainer.setAttribute("rel", "noopener noreferrer");
+
+      let liCard = document.createElement("li");
+      liCard.className = "card";
+      
+      let h2RepoTitle = document.createElement("h2");
+      h2RepoTitle.innerHTML = items[i].title;
+      liCard.append(h2RepoTitle);
+
+      let p1LastUpdated = document.createElement("p1");
+      p1LastUpdated.innerHTML = "Last updated: ".concat(items[i].last_updated);
+      liCard.append(p1LastUpdated);
+
+      let pDescription = document.createElement("p");
+      pDescription.innerHTML = items[i].description;
+      liCard.append(pDescription);
+
+      if (items[i].publication.length > 0) {
+        let pPublication = document.createElement("p");
+        pPublication.innerHTML = "Publication: ".concat(items[i].publication);
+        liCard.append(pPublication);
+      }
+      
+      linkContainer.append(liCard);
+      mainContainer.append(linkContainer);
+    }
+  }
   
   /**
    * Populate links in the specified footer section with provided data.
@@ -499,7 +532,9 @@ import {
 
   populateExp_Edu(experience, "experience");
 
-  populatePublications(publications, "publications")
+  populatePublications(publications, "publications");
+
+  populateCode(repos, "code-carousel");
   
   // populateSkills(skills, "skills");
   

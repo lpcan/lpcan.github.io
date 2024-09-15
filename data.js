@@ -76,165 +76,39 @@ export const publications = [
     }
 ];
 
-
-export const projects = {
-    webProjects: [
-        {
-            projectName: "Programming Diaries",
-            image: "images/telescope.png",
-            summary:
-                "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-            preview: "https://programmingdiaries.herokuapp.com/",
-            techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
-        },
-        {
-            projectName: "Find Your Bank",
-            image: "images/telescope.png",
-            summary:
-                "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-            preview: "https://clever-fermi-0d5d76.netlify.app",
-            techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-        },
-        {
-            projectName: "Web Portfolio",
-            image: "images/telescope.png",
-            summary:
-                "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-            preview: "https://github.com/vinaysomawat/Travographer-Portal",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-        {
-            projectName: "Resume Builder",
-            image: "images/telescope.png",
-            summary:
-                "Browser based editor to build and download Resumes in a customizable templates.",
-            preview: "https://vinaysomawat.github.io/Resume-Builder",
-            techStack: ["HTML", "Bootstrap", "JavaScript"],
-        },
-    ],
-    softwareProjects: [
-        {
-            projectName: "Pizza Ordering ChatBot",
-            image: "images/telescope.png",
-            summary:
-                "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-            preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-            techStack: ["Dailogflow", "Firebase"],
-        },
-        {
-            projectName: "WhatsApp-Bot",
-            image: "images/telescope.png",
-            summary:
-                "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-            preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-            techStack: ["Selenium", "Chrome Webdriver", "Python"],
-        },
-        {
-            projectName: "Bill Generator",
-            image: "images/telescope.png",
-            summary:
-                "GUI to transfer data to excel sheets and generate bills on the local shops.",
-            preview: "https://github.com/vinaysomawat/Bill-Generator",
-            techStack: ["Tkinter", "Openxlpy", "Python"],
-        },
-    ],
-    androidProjects: [
-        {
-            projectName: "NITW-CSE",
-            image: "images/telescope.png",
-            summary:
-                "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-            preview: "https://github.com/vinaysomawat/NITW-CSE",
-            techStack: ["JAVA", "XML", "Android"],
-        },
-    ],
-    freelanceProjects: [
-    ],
-};
-
-export const education = [
+export const repos = [
     {
-        title: "B.Tech. in Computer Science and Engineering",
-        duration: "2016 - 2020",
-        subtitle: "National Institute of Technology, Warangal",
-        details: [],
-        tags: [
-            "Data Structures & Algorithms",
-            "Operating Systems",
-            "Database Management System",
-            "Computer Networks",
-            "Compiler Designing",
-            "Cloud Computing",
-        ],
-        icon: "graduation-cap",
+        title: "ml_icl",
+        last_updated: "September 2024",
+        description: "Code for training, finetuning, and running a machine \
+            learning model designed to predict the ICL fraction in HSC-SSP \
+            cluster images for anyone interested in using it.",
+        publication: "Coming soon!",
+        link: "https://github.com/lpcan/ml_icl",
     },
     {
-        title: "Class 12th in Science and Mathematics",
-        duration: "",
-        subtitle: "Board of Secondary Education, Rajasthan",
-        details: [],
-        tags: ["Physics", "Chemistry", "Mathematics"],
-        icon: "book",
-    },
-];
-
-export const footer = [
-    {
-        label: "Dev Profiles",
-        data: [
-            {
-                text: "Stackoverflow",
-                link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-            },
-            {
-                text: "GitHub",
-                link: "https://github.com/vinaysomawat",
-            },
-            {
-                text: "LeetCode",
-                link: "https://leetcode.com/somawatvinay/",
-            },
-        ],
+        title: "lpcan.github.io",
+        last_updated: "September 2024",
+        description: "This website! Feel free to use as a template. Adapted \
+            from Vinay Somawat's template, linked in the README and in the \
+            footer below.",
+        publication: "",
+        link: "https://github.com/lpcan/lpcan.github.io",
     },
     {
-        label: "Resources",
-        data: [
-            {
-                text: "Enable Dark/Light Mode",
-                func: "enableDarkMode()",
-            },
-            {
-                text: "Print this page",
-                func: "window.print()",
-            },
-            {
-                text: "Clone this page",
-                link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-            },
-        ],
+        title: "med_vqa",
+        last_updated: "March 2023",
+        description: "Code for training a visual question answering machine \
+            learning model for answering various questions about medical images.",
+        publication: "Visual question answering in the medical domain",
+        link: "https://github.com/lpcan/med_vqa",
     },
     {
-        label: "Social Profiles",
-        data: [
-            {
-                text: "Linkedin",
-                link: "https://www.linkedin.com/in/vinaysomawat/",
-            },
-            {
-                text: "Twitter",
-                link: "https://twitter.com/thesigmakid",
-            },
-            {
-                text: "Buy me a coffee",
-                link: "https://www.buymeacoffee.com/r194dME8y",
-            },
-        ],
-    },
-    {
-        label: "copyright-text",
-        data: [
-            "Made with &hearts; by Vinay Somawat.",
-            "&copy; No Copyrights. Feel free to use this template.",
-        ],
+        title: "chad",
+        last_updated: "February 2022",
+        description: "Code for building and running CHAD, a database of \
+            multi-wavelength observations of radio sources from RACS.",
+        publication: "",
+        link: "https://github.com/lpcan/chad",
     },
 ];

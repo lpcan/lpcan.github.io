@@ -1023,6 +1023,7 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-bottom:15px;
 	margin-left:15px;
 	font-family: "Montserrat";
+	display: flex;
 }
 
 .pub-entry .pub-entry-label .pub-entry-thumbnail {
@@ -1106,6 +1107,14 @@ body.offcanvas .colorlib-nav-toggle {
 	scrollbar-width: 0;
 }
 
+.carousel a {
+	color:black;
+}
+
+.carousel a:hover {
+	color: #2c98f0;
+}
+
 .carousel::-webkit-scrollbar {
 	display: none;
 }
@@ -1128,6 +1137,11 @@ body.offcanvas .colorlib-nav-toggle {
 	justify-content: center;
 	flex-direction: column;
 }
+
+.carousel .card:hover {
+	background:#dddee3;
+}
+
 
 @media screen and (max-width: 900px) {
     .wrapper .carousel {

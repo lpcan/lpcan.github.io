@@ -320,14 +320,12 @@ document.addEventListener("DOMContentLoaded", function() {
   const firstCardWidth = firstCard.offsetWidth;
 
   const numCards = document.querySelectorAll(".card").length;
+  const visibleCards = Math.floor(carousel.offsetWidth / firstCardWidth)
   var currCard = 0;
-  console.log(numCards);
 
   leftBtn.addEventListener("click", () => {
     currCard -= currCard > 0 ? 1 : 0;
     carousel.scrollLeft -= firstCardWidth;
-    console.log(carousel.scrollLeft)
-    console.log(currCard)
     rightBtn.style.visibility = "visible";
     if (currCard == 0) {
       leftBtn.style.visibility = "hidden";
@@ -335,12 +333,10 @@ document.addEventListener("DOMContentLoaded", function() {
   })
 
   rightBtn.addEventListener("click", () => {
-    currCard += currCard < (numCards - 2) ? 1 : 0;
+    currCard += currCard < (numCards - visibleCards) ? 1 : 0;
     carousel.scrollLeft += firstCardWidth;
-    console.log(carousel.scrollLeft)
-    console.log(currCard)
     leftBtn.style.visibility = "visible";
-    if (currCard == (numCards - 2)) {
+    if (currCard == (numCards - visibleCards)) {
       rightBtn.style.visibility = "hidden";
     }
   })

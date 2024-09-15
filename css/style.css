@@ -1014,8 +1014,17 @@ body.offcanvas .colorlib-nav-toggle {
 	border-radius: 4px;
 }
 
+.dark-mode .pub-entry {
+	border-color: #0f3f50;
+	color: white;
+}
+
 .pub-entry:hover {
 	background-color: #f2f3f7;
+}
+
+.dark-mode .pub-entry:hover {
+	background-color: #0f3f50;
 }
 
 .pub-entry .pub-entry-label {

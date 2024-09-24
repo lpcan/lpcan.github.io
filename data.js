@@ -14,7 +14,7 @@ export const experience = [
     {
         title: "LSST@Europe6 conference",
         duration: "September 16, 2024 - September 20, 2024",
-        details: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\">here</a>.",
+        details: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
         icon: "plane",
     },
     {
@@ -31,13 +31,13 @@ export const experience = [
     {
         title: "EAS annual meeting",
         duration: "July 1, 2024 - July 5, 2024",
-        details: "I had a poster and presented a sparkler talk at the European Astronomical Society Annual Meeting in Padova, Italy. Check out my poster <a href=\"https://k-poster.kuoni-congress.info/eas-2024/gallery#/poster/EC96679B-EDA9-4BD7-9899-B2E1663481DC\">here</a>!",
+        details: "I had a poster and presented a sparkler talk at the European Astronomical Society Annual Meeting in Padova, Italy. Check out my poster <a href=\"https://k-poster.kuoni-congress.info/eas-2024/gallery#/poster/EC96679B-EDA9-4BD7-9899-B2E1663481DC\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>!",
         icon: "plane",
     },
     {
         title: "ASA ASM",
         duration: "June 24, 2024 - June 28, 2024",
-        details: "I was awarded best student presentation at the Astronomical Society of Australia's Annual Science Meeting! The recording is <a href=\"https://youtu.be/inj516PfFTU?t=3294\">here</a>.",
+        details: "I was awarded best student presentation at the Astronomical Society of Australia's Annual Science Meeting! The recording is <a href=\"https://youtu.be/inj516PfFTU?t=3294\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
         icon: "person-chalkboard",
     },
     {

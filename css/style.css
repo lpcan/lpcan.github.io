@@ -1135,7 +1135,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .carousel .card {
 	scroll-snap-align: start;
-	height: 200px;
+	min-height: 200px;
 	list-style: none;
 	background: #f2f3f7;
 	border-radius: 10px;

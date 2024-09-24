@@ -428,7 +428,7 @@ import {
       liCard.append(pDescription);
 
       if (items[i].publication.length > 0) {
-        let pPublication = document.createElement("p");
+        let pPublication = document.createElement("p1");
         pPublication.innerHTML = "Publication: ".concat(items[i].publication);
         liCard.append(pPublication);
       }

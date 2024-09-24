@@ -290,13 +290,11 @@ import {
   
   /**
    * Populate the HTML timeline with items.
-   * @param {Array} items - An array of objects that represent the timeline items.
+   * @param {Array} items - An array of objects that represent the timelineitems.
    * @param {string} id - The id of the main container element in the HTML.
-   * @property {string} items[].subtitle - The subtitle of the timeline item.
+   * @property {string} items[].details - Details of the timeline item.
    * @property {string} items[].duration - The duration of the timeline item.
    * @property {string} items[].title - The title of the timeline item.
-   * @property {Array} items[].details - An array of details for the timeline item.
-   * @property {Array} items[].tags - An array of tags for the timeline item.
    * @property {string} items[].icon - The name of the font awesome icon to use.
    */
   function populateExp_Edu(items, id) {
@@ -305,7 +303,7 @@ import {
     for (let i = 0; i < items.length; i++) {
       let spanTimelineSublabel = document.createElement("span");
       spanTimelineSublabel.className = "timeline-sublabel";
-      spanTimelineSublabel.innerHTML = items[i].subtitle;
+      spanTimelineSublabel.innerHTML = items[i].details;
   
       let spanh2 = document.createElement("span");
       spanh2.innerHTML = items[i].duration;
@@ -318,22 +316,6 @@ import {
       divTimelineLabel.className = "timeline-label";
       divTimelineLabel.append(h2TimelineLabel);
       divTimelineLabel.append(spanTimelineSublabel);
-  
-      for (let j = 0; j < items[i].details.length; j++) {
-        let pTimelineText = document.createElement("p");
-        pTimelineText.className = "timeline-text";
-        pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
-        divTimelineLabel.append(pTimelineText);
-      }
-  
-      // let divTags = document.createElement("div");
-      // for (let j = 0; j < items[i].tags.length; j++) {
-      //   let spanTags = document.createElement("span");
-      //   spanTags.className = "badge badge-secondary";
-      //   spanTags.innerHTML = items[i].tags[j];
-      //   divTags.append(spanTags);
-      // }
-      // divTimelineLabel.append(divTags);
   
       let iFa = document.createElement("i");
       iFa.className = "fa fa-" + items[i].icon;

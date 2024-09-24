@@ -20,45 +20,30 @@ export const experience = [
     {
         title: "ASA ECR Chapter Steering Committee",
         duration: "August 2024",
-        subtitle: "I joined the ASA ECR Chapter Steering Committe as their student representative!",
-        details: [
-        ],
-        tags: [],
+        details: "I joined the ASA ECR Chapter Steering Committe as their student representative!",
         icon: "people-group",
     },{
         title: "ML4ASTRO2 conference",
         duration: "July 8, 2024 - July 12, 2024",
-        subtitle: "I presented a talk at the second Machine Learning for Astrophysics conference in Catania, Italy.",
-        details: [
-        ],
-        tags: [],
+        details: "I presented a talk at the second Machine Learning for Astrophysics conference in Catania, Italy.",
         icon: "plane",
     },
     {
         title: "EAS annual meeting",
         duration: "July 1, 2024 - July 5, 2024",
-        subtitle: "I had a poster and presented a sparkler talk at the European Astronomical Society Annual Meeting in Padova, Italy. Check out my poster <a href=\"https://k-poster.kuoni-congress.info/eas-2024/gallery#/poster/EC96679B-EDA9-4BD7-9899-B2E1663481DC\">here</a>!",
-        details: [
-        ],
-        tags: [],
+        details: "I had a poster and presented a sparkler talk at the European Astronomical Society Annual Meeting in Padova, Italy. Check out my poster <a href=\"https://k-poster.kuoni-congress.info/eas-2024/gallery#/poster/EC96679B-EDA9-4BD7-9899-B2E1663481DC\">here</a>!",
         icon: "plane",
     },
     {
         title: "ASA ASM",
         duration: "June 24, 2024 - June 28, 2024",
-        subtitle: "I was awarded best student presentation at the Astronomical Society of Australia's Annual Science Meeting! The recording is <a href=\"https://youtu.be/inj516PfFTU?t=3294\">here</a>.",
-        details: [
-        ],
-        tags: [],
+        details: "I was awarded best student presentation at the Astronomical Society of Australia's Annual Science Meeting! The recording is <a href=\"https://youtu.be/inj516PfFTU?t=3294\">here</a>.",
         icon: "person-chalkboard",
     },
     {
         title: "Astro 3D Science Legacy Meeting",
         duration: "June 3, 2024 - June 7, 2024",
-        subtitle: "I presented a talk at the Astro 3D Science Legacy Meeting in Sydney, Australia.",
-        details: [
-        ],
-        tags: [],
+        details: "I presented a talk at the Astro 3D Science Legacy Meeting in Sydney, Australia.",
         icon: "person-chalkboard",
     },
 ];

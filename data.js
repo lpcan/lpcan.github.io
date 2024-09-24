@@ -12,6 +12,12 @@ export const bio = [
 
 export const experience = [
     {
+        title: "LSST@Europe6 conference",
+        duration: "September 16, 2024 - September 20, 2024",
+        subtitle: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\">here</a>.",
+        icon: "plane",
+    }
+    {
         title: "ASA ECR Chapter Steering Committee",
         duration: "August 2024",
         subtitle: "I joined the ASA ECR Chapter Steering Committe as their student representative!",

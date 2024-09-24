@@ -14,7 +14,7 @@ export const experience = [
     {
         title: "LSST@Europe6 conference",
         duration: "September 16, 2024 - September 20, 2024",
-        subtitle: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\">here</a>.",
+        details: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\">here</a>.",
         icon: "plane",
     },
     {

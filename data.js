@@ -12,6 +12,12 @@ export const bio = [
 
 export const experience = [
     {
+        title: "Publication!",
+        duration: "February 2025",
+        details: "I published a paper - Measuring the Intracluster Light Fraction with Machine Learning! Find it <a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/adabc7\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>",
+        icon: "book",
+    },
+    {
         title: "LSST@Europe6 conference",
         duration: "September 16, 2024 - September 20, 2024",
         details: "I presented a talk at the LSST@Europe conference in La Palma, Canary Islands. Check out my slides <a href=\"files/LSST@Europe.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
@@ -58,6 +64,14 @@ export const publications = [
         thumbnail: "images/work_in_progress.png"
     },
     {
+        title: "Measuring the Intracluster Light Fraction with Machine Learning",
+        authors: "<u>Louisa Canepa</u>, Sarah Brough, Francois Lanusse, Mireia Montes, Nina Hatch",
+        status: "The Astrophysical Journal",
+        date: "February 2025",
+        link: "https://iopscience.iop.org/article/10.3847/1538-4357/adabc7",
+        thumbnail: "images/micl-thumbnail.png"
+    },
+    {
         title: "Visual question answering in the medical domain",
         authors: "<u>Louisa Canepa</u>, Sonit Singh, Arcot Sowmya",
         status: "arXiv e-prints",
@@ -69,17 +83,17 @@ export const publications = [
 
 export const repos = [
     {
-        title: "ml_icl",
+        title: "MICL",
         last_updated: "September 2024",
         description: "Code for training, finetuning, and running a machine \
             learning model designed to predict the ICL fraction in HSC-SSP \
             cluster images for anyone interested in using it.",
-        publication: "Coming soon!",
-        link: "https://github.com/lpcan/ml_icl",
+        publication: "Measuring the Intracluster Light Fraction with Machine Learning",
+        link: "https://github.com/lpcan/MICL",
     },
     {
         title: "lpcan.github.io",
-        last_updated: "September 2024",
+        last_updated: "June 2025",
         description: "This website! Feel free to use as a template. Adapted \
             from Vinay Somawat's template, linked in the README and in the \
             footer below.",

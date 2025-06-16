@@ -196,6 +196,11 @@ figure figcaption {
 	font-size: 14px;
 	color: #bdbdbd;
 }
+#colorlib-aside p1 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 10px;
+	color: #bdbdbd;
+}
 #colorlib-aside .position {
 	display: block;
 	margin-bottom: 2em;

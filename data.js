@@ -12,6 +12,24 @@ export const bio = [
 
 export const experience = [
     {
+        title: "CL2025",
+        duration: "September 22, 2025 - September 26, 2025",
+        details: "I presented my work at the CL2025 conference in Taipei, Taiwan, and was awarded best student presentation.",
+        icon: "person-chalkboard",
+    },
+    {
+        title: "LSST@Europe7 conference",
+        duration: "September 15, 2025 - September 19, 2025",
+        details: "I presented my work at the LSST@Europe conference in Poznan, Poland. Check out my slides <a href=\"https://zenodo.org/records/17364788\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.",
+        icon: "person-chalkboard",
+    },
+    {
+        title: "ASA ASM",
+        duration: "July 7, 2025 - July 11, 2025",
+        details: "I presented my work at the Astronomical Society of Australia's Annual Science Meeting, and was awarded second in best student presentation.",
+        icon: "person-chalkboard",
+    },
+    {
         title: "Publication!",
         duration: "February 2025",
         details: "I published a paper - Measuring the Intracluster Light Fraction with Machine Learning! Find it <a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/adabc7\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>",

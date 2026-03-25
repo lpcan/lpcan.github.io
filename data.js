@@ -12,6 +12,12 @@ export const bio = [
 
 export const experience = [
     {
+        title: "Publication!",
+        duration: "December 2025",
+        details: "New paper - the dependence of the intracluster light fraction on galaxy cluster properties. Find it <a href=\"https://academic.oup.com/mnras/article/545/3/staf2167/8374720\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>",
+        icon: "book",
+    },
+    {
         title: "CL2025",
         duration: "September 22, 2025 - September 26, 2025",
         details: "I presented my work at the CL2025 conference in Taipei, Taiwan, and was awarded best student presentation.",
@@ -74,12 +80,12 @@ export const experience = [
 
 export const publications = [
     {
-        title: "Watch this space!",
-        authors: "",
-        status: "",
-        date: "",
-        link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        thumbnail: "images/work_in_progress.png"
+        title: "The dependence of the intracluster light fraction on galaxy cluster properties",
+        authors: "<u>Louisa Canepa</u>, Sarah Brough, Mireia Montes, Nina Hatch",
+        status: "Monthly Notices of the Royal Astronomical Society",
+        date: "December 2025",
+        link: "http://academic.oup.com/mnras/article/545/3/staf2167/8374720",
+        thumbnail: "images/icltrends-thumbnail.png"
     },
     {
         title: "Measuring the Intracluster Light Fraction with Machine Learning",
